@@ -9,28 +9,46 @@ body{
     background: black;
     color: white;
     height: 100vh;
+    margin: 0;
+    padding: 0;
     /* width: 100vh; */
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
+.heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg{
+    height: 10rem;
+}
 .main__heading{
 
 text-align: center;
 text-transform: uppercase;
 font-family: monospace;
-font-size: 5rem;
+font-size: 4rem;
 color: aqua;
 }
 
+
+
 .english-text{
-    /* width: 10%; */
+    width: 80%;
     border: solid aqua 0.1rem;
     text-align: center;
 
     background-color: black;
     color: white;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.5rem;
     
 }
 
@@ -39,7 +57,7 @@ color: aqua;
     background-color: transparent;
     font-size: 2rem;
 
-    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: all 0.1s cubic-bezier(0.075, 0.82, 0.165, 1);
     color: white;
     font-family: monospace;
     
@@ -48,6 +66,17 @@ color: aqua;
 
 .translate__button:hover{
     background-color: aqua;
-    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: all 0.1s cubic-bezier(0.075, 0.82, 0.165, 1);
 
+}
+.output__text{
+    font-size: 1.3rem;
+    font-family: monospace;
+}
+.output{
+   height: 5rem; 
+    border: solid aqua 0.1rem;
+    width: 50%;
+    text-align: center;
+    font-size: 1.2rem;
 }

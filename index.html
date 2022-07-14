@@ -3,21 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=\, initial-scale=1.0" />
-    <title>Banana Speak</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speak Banana Language</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1 class="main__heading">Talk Banana</h1>
+    <div class="heading">
+      <h1 class="main__heading">Talk Banana</h1>
+      <img class="svg" src="assets/translate.svg" alt="" />
+    </div>
     <textarea
       class="english-text"
       placeholder="put your english text here to convert it to banana language."
       name="english-text"
       id="english-text"
       cols="30"
-      rows="10"
+      rows="3"
     ></textarea>
     <button class="translate__button" id="btn-translate">Translate</button>
+
+    <p class="output__text">Output will come here 👇</p>
+    <div id="output" class="output"></div>
 
     <script src="app.js" type="text/javascript"></script>
   </body>
