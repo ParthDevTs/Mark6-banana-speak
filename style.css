@@ -1,0 +1,53 @@
+body{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: black;
+    color: white;
+    height: 100vh;
+    /* width: 100vh; */
+}
+
+
+.main__heading{
+
+text-align: center;
+text-transform: uppercase;
+font-family: monospace;
+font-size: 5rem;
+color: aqua;
+}
+
+.english-text{
+    /* width: 10%; */
+    border: solid aqua 0.1rem;
+    text-align: center;
+
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    font-size: 2rem;
+    
+}
+
+.translate__button{
+    border: 0.2rem aqua solid;
+    background-color: transparent;
+    font-size: 2rem;
+
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: white;
+    font-family: monospace;
+    
+    
+}
+
+.translate__button:hover{
+    background-color: aqua;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
